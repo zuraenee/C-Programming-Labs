@@ -9,7 +9,7 @@ int main() {
     for (char &c : input) c = toupper(static_cast<unsigned char>(c));
     bool isPalindrome= true;
     bool isMirrored = true;
-    unordered_map<char, char> dict = {
+    map<char, char> dict = {
         {'A','A'}, {'E','3'}, {'3','E'}, {'J','L'}, {'L','J'},
         {'S','2'}, {'2','S'}, {'Z','5'}, {'5','Z'},
         {'H','H'}, {'I','I'}, {'M','M'}, {'O','O'}, {'T','T'},
